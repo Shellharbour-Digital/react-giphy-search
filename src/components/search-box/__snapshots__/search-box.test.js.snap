@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox component expect to render SearchBox component 1`] = `
+<styled.div>
+  <Styled(DebounceInput)
+    type="search"
+  />
+</styled.div>
+`;

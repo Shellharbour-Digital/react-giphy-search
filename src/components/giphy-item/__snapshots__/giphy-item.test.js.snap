@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GiphyItem component expect to render GiphyItem component 1`] = `
+<styled.div>
+  <LoadingContainer
+    height={200}
+  >
+    <Spinner />
+  </LoadingContainer>
+  <styled.a
+    href="www.mockurl.com"
+    target="_blank"
+  >
+    <GifImg
+      alt="mock image"
+      onLoad={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </styled.a>
+</styled.div>
+`;

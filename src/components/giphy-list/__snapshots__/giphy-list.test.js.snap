@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GiphyList component expect to render GiphyList component 1`] = `
+<WithGifs
+  gifs={
+    Array [
+      Object {
+        "id": "mockId",
+        "images": Object {
+          "fixed_width": Object {
+            "height": 200,
+            "url": "www.mockurlfixedwidth.com",
+          },
+        },
+        "title": "mockTitle",
+        "url": "www.mockurl.com",
+      },
+    ]
+  }
+  meta={
+    Object {
+      "msg": "mockMsg",
+      "status": 200,
+    }
+  }
+>
+  <GiphyList
+    gifs={
+      Array [
+        Object {
+          "id": "mockId",
+          "images": Object {
+            "fixed_width": Object {
+              "height": 200,
+              "url": "www.mockurlfixedwidth.com",
+            },
+          },
+          "title": "mockTitle",
+          "url": "www.mockurl.com",
+        },
+      ]
+    }
+    meta={
+      Object {
+        "msg": "mockMsg",
+        "status": 200,
+      }
+    }
+    pagination={Array []}
+  >
+    <styled.div>
+      <div
+        className="sc-gKckTs eOXWWN"
+      >
+        <styled.div>
+          <div
+            className="sc-iCfLBT KMWCh"
+          >
+            <GiphyItem
+              alt="mockTitle"
+              height={200}
+              key="mockId"
+              src="www.mockurlfixedwidth.com"
+              url="www.mockurl.com"
+            >
+              <styled.div>
+                <div
+                  className="sc-dkPtyc hdAHYd"
+                >
+                  <LoadingContainer
+                    height={200}
+                  >
+                    <div
+                      className="sc-jRQAMF jWpOkq"
+                      height={200}
+                    >
+                      <Spinner>
+                        <styled.div>
+                          <div
+                            className="sc-bdvvaa loGtTo"
+                          >
+                            <styled.div>
+                              <div
+                                className="sc-gsDJrp cDvfmb"
+                              />
+                            </styled.div>
+                          </div>
+                        </styled.div>
+                      </Spinner>
+                    </div>
+                  </LoadingContainer>
+                  <styled.a
+                    href="www.mockurl.com"
+                    target="_blank"
+                  >
+                    <a
+                      className="sc-eCImvq PnkkR"
+                      href="www.mockurl.com"
+                      target="_blank"
+                    >
+                      <GifImg
+                        alt="mockTitle"
+                        onLoad={[Function]}
+                        src="www.mockurlfixedwidth.com"
+                        style={
+                          Object {
+                            "display": "none",
+                          }
+                        }
+                      >
+                        <img
+                          alt="mockTitle"
+                          className="sc-hKwCoD fYRrVq"
+                          onLoad={[Function]}
+                          src="www.mockurlfixedwidth.com"
+                          style={
+                            Object {
+                              "display": "none",
+                            }
+                          }
+                        />
+                      </GifImg>
+                    </a>
+                  </styled.a>
+                </div>
+              </styled.div>
+            </GiphyItem>
+          </div>
+        </styled.div>
+      </div>
+    </styled.div>
+  </GiphyList>
+</WithGifs>
+`;

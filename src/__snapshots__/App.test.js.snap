@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner component expect to render App 1`] = `
+<div
+  className="App"
+>
+  <SearchBox
+    debounceTimeout={300}
+    handleChange={[Function]}
+    placeholder="🔎 search gifs"
+  />
+  <WithGifs
+    dataSource="https://api.giphy.com/v1/gifs/trending?api_key=AscSI3FnS69DmOLqAbNa4GZZQvEeNWil&limit=50&rating=g"
+  />
+</div>
+`;
